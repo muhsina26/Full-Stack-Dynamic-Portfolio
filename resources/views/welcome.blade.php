@@ -2,13 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Potato Portfolio</title>
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <h1>
-        Welcome From Laravel App
-    </h1>
+
+    <div class="navbar">
+        <div>Home</div>
+        <div>About</div>
+        <div>Projects</div>
+        <div>Experiences</div>
+    </div>
+
+    <div class="main">
+        <div class="photo">
+            <img src="{{asset('assets/images/myphoto.jpg')}}" alt="My Photo">
+        </div>
+        <div class="intro">
+            <p><i class="fas fa-user"></i> Hi, I am <strong>Muhsina</strong>.</p>
+            <p><i class="fas fa-heart"></i> Happy to serve you!</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <p><i class="fas fa-envelope"></i> Contact Me</p>
+    </div>
+
 </body>
 </html>
