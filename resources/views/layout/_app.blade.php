@@ -12,6 +12,10 @@
 
   <nav>
     <div class="logo">Portfolio</div>
+    <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="menu-button">
+    <i class="fas fa-bars"></i>
+  </label>
     <ul>
       <li><a href="{{ url('/') }}" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
       <li><a href="{{ url('/about') }}" class="{{ request()->is('about') ? 'active' : '' }}">About</a></li>

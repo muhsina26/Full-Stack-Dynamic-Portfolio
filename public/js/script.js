@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Only run if we're on the home page and element exists
+   
     if (window.location.pathname === '/' && document.getElementById('element')) {
       new Typed('#element', {
         strings: [
